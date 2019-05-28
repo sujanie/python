@@ -1,0 +1,15 @@
+{
+  "name": "Meta search engine",
+  "description": "The Meta search engine",
+  "image": "heroku/python",
+  "repository": "https://github.com/sujanie/MetaSearchEngine",
+  "keywords": ["python" ],
+  "addons": [ "heroku-postgresql" ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "server.py test"
+      }
+    }
+  }
+}
